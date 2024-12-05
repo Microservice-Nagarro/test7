@@ -1,8 +1,8 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.CodeAnalysis;
 using Newtonsoft.Json;
 
-namespace BHF.MS.MyMicroservice.Models
+namespace BHF.MS.test7.Models
 {
     [ExcludeFromCodeCoverage(Justification = "It's a model with no logic")]
     public class ExampleModel

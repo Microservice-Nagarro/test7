@@ -1,8 +1,8 @@
-﻿using BHF.MS.MyMicroservice.Database.Context.Entities;
+using BHF.MS.test7.Database.Context.Entities;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics.CodeAnalysis;
 
-namespace BHF.MS.MyMicroservice.Database.Context
+namespace BHF.MS.test7.Database.Context
 {
     [ExcludeFromCodeCoverage(Justification = "It's EF context implementation")]
     public class CustomDbContext(DbContextOptions<CustomDbContext> options) : DbContext(options)

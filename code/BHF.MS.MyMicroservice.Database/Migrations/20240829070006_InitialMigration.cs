@@ -1,8 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace BHF.MS.MyMicroservice.Database.Migrations
+namespace BHF.MS.test7.Database.Migrations
 {
     /// <inheritdoc />
     public partial class InitialMigration : Migration

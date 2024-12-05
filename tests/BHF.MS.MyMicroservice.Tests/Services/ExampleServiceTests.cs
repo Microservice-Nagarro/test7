@@ -1,13 +1,13 @@
-using BHF.MS.MyMicroservice.Models;
-using BHF.MS.MyMicroservice.Models.Settings;
-using BHF.MS.MyMicroservice.Services;
+using BHF.MS.test7.Models;
+using BHF.MS.test7.Models.Settings;
+using BHF.MS.test7.Services;
 using FluentAssertions;
 using Microsoft.Extensions.Options;
 using Moq;
 using Moq.Contrib.HttpClient;
 using System.Net;
 
-namespace BHF.MS.MyMicroservice.Tests.Services
+namespace BHF.MS.test7.Tests.Services
 {
     public class ExampleServiceTests
     {

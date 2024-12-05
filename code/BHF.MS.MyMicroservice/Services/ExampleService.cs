@@ -1,8 +1,8 @@
-﻿using BHF.MS.MyMicroservice.Models;
-using BHF.MS.MyMicroservice.Models.Settings;
+using BHF.MS.test7.Models;
+using BHF.MS.test7.Models.Settings;
 using Microsoft.Extensions.Options;
 
-namespace BHF.MS.MyMicroservice.Services
+namespace BHF.MS.test7.Services
 {
     public class ExampleService(HttpClient httpClient, IOptions<ServiceSettings> settings) : IExampleService
     {

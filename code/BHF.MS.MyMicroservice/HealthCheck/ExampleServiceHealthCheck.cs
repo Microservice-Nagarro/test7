@@ -1,9 +1,9 @@
-﻿using BHF.MS.MyMicroservice.Models.Settings;
-using BHF.MS.MyMicroservice.Services;
+using BHF.MS.test7.Models.Settings;
+using BHF.MS.test7.Services;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Options;
 
-namespace BHF.MS.MyMicroservice.HealthCheck
+namespace BHF.MS.test7.HealthCheck
 {
     public class ExampleServiceHealthCheck(IExampleService exampleService, ILogger<ExampleServiceHealthCheck> logger, IOptions<HealthCheckSettings> settings) : IHealthCheck
     {

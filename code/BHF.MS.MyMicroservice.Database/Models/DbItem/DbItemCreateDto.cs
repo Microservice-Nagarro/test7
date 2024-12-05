@@ -1,6 +1,6 @@
-﻿using System.Text.Json.Serialization;
+using System.Text.Json.Serialization;
 
-namespace BHF.MS.MyMicroservice.Database.Models.DbItem
+namespace BHF.MS.test7.Database.Models.DbItem
 {
     public class DbItemCreateDto
     {

@@ -1,10 +1,10 @@
-﻿using BHF.MS.MyMicroservice.Database.Context;
-using BHF.MS.MyMicroservice.Database.Services;
+using BHF.MS.test7.Database.Context;
+using BHF.MS.test7.Database.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System.Diagnostics.CodeAnalysis;
 
-namespace BHF.MS.MyMicroservice.Database
+namespace BHF.MS.test7.Database
 {
     [ExcludeFromCodeCoverage(Justification = "It's an IoC initializer")]
     public static class DependencyInjectionInitializers
@@ -13,7 +13,7 @@ namespace BHF.MS.MyMicroservice.Database
         {
             serviceCollection.AddDbContext<CustomDbContext>(options =>
             {
-                options.UseSqlServer("name=ConnectionStrings:DbMyMicroservice");
+                options.UseSqlServer("name=ConnectionStrings:Dbtest7");
             });
         }
 
